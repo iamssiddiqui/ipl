@@ -1,0 +1,48 @@
+#logo {
+    width : 100px;
+     height : 100px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-left: 0px;
+   }
+   #topbar {
+     display: flex;
+     border: 2px solid black;
+     background: #004080;
+     width: 100%;
+     height: 102px;
+   }
+   .names {
+   color: white;
+     font-size: 36px;
+     margin-left: 40px;
+     margin-top: 20px;
+     font-family: 'Kiwi Maru', serif;
+     
+   }
+   .input-group {
+     margin-top: 50px;
+     margin-left: 310px;
+   }
+   .thumbnail {
+   width: 100%;
+     height: 180px;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+     cursor: pointer;
+   }
+   .places-card {
+     width: calc(24% - 16px);
+     box-shadow: 4px 4px 8px #888888;
+     border-radius: 15px;
+     display: inline-block;
+     margin: 8px;
+   }
+   .label {
+     margin: 0;
+     text-align: center;
+   padding: 16px;
+   }
+   #places-grid {
+     padding: 24px 100px;
+   }
